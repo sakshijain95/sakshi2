@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 hie hello
+=======
+hi therer
+>>>>>>> sb
