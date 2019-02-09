@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <style>
+        .box
+        {
+            position: absolute;
+            left: 30%;
+            transform: translateX(50%) ;
+            border-style: solid;
+            border-color: cadetblue;
+
+
+        }
+
+        .d3
+        {
+            border-style: solid;
+            border-color:whitesmoke;
+            height:50px ;
+        }
+        .s
+        {
+            font-size: 15px;
+
+            color: aliceblue;
+
+            width:100%;
+
+        }
+
+        .d1{
+float:left;
+color:dodgerblue;
+            font-size: 30px;
+            padding-top: 10px;
+        }
+
+        .d2
+        {
+            color:dodgerblue;
+            font-size: 20;
+            float: right;
+            padding-top: 10px;
+        }
+        .c
+        {
+
+            background-color: darkslategrey;
+            border-style: hidden;
+            font-size: large;
+            color: aliceblue;
+        }
+
+        #q
+        {
+
+
+            font-size: 20px;
+            color: darkslategrey;
+
+        }
+
+
+
+
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Bug Report</title>
+
+
+</head>
+
+<body>
+
+<div class="d3">
+
+    <nav class="s">
+
+        <div class="d1">
+            ToTheNew
+        </div>
+
+
+<div class="d2">
+    <a href="/html/">Home</a>
+    <a href="/css/">Quick Help</a>
+
+
+</div>
+
+
+    </nav>
+</div>
+
+<br>
+
+<div>
+    <form class="box">
+        <fieldset style="border-style: solid">
+            <section class="c"> BUG REPORT </section>
+            <p>
+                <label class="d"> Title :</label><br>
+                <input type="text" name = "title" required> <br>
+            </p>
+
+
+            <p>
+
+                <label class="d"> Description :</label><br>
+                <textarea name="message" cols="30" required> </textarea> <br>
+            </p>
+
+
+            <p>
+                <label class="d"> Operating System :</label><br>
+                <select name="operating system">
+                    <option value="-1">select</option>
+                    <option value="WidowsXP">WidowsXP</option>
+                    <option value="Windows7">Windows7</option>
+                    <option value="macos">MacOS</option>
+                    <option value="WidowsXP">WidowsXP</option>
+                    <option value="linux">Linux</option>
+
+                </select><br>
+            </p>
+
+            <p>
+                <label class="d"> Product :</label> <br>
+                <select name="Product" required>
+                    <option value="-1">select product</option>
+                    <option value="formoid">Formoid</option>
+                    <option value="mobirise">Mobirise</option>
+                    <option value="nobeek">Nobeek</option>
+                    <option value="VS">Visual Studio</option>
+
+                </select> <br>
+
+            </p>
+
+
+            <p>
+                <label class="d"> Version :</label><br>
+                <input type="text" name = "version" required> <br>
+            </p>
+
+
+
+            <p>
+                <label class="d"> License :</label><br>
+                <label class="d" for="Free">Free</label>
+                <input type="radio" name="LICENSE" id="free" value="free">
+                <label class="d" for="Business">Business</label>
+                <input type="radio" name="LICENSE" id="business" value="female"><br>
+
+            </p>
+
+
+            <p>
+                <label class="d"> Severity :</label> <br>
+                <select name="Severity" required>
+                    <option value="-1">select</option>
+                    <option value="critical">Critical</option>
+                    <option value="less">less</option>
+                    <option value="high">high</option>
+
+                </select> <br>
+
+            </p>
+
+            <p>
+
+                <label class="d"> Attachments :</label> <br>
+                <input type="file" class="form-control" id="image" name="image" >
+            </p>
+
+
+            <nav style="background-color: darkslategrey">
+                <p align="right">
+
+
+                    <button> Send </button>
+                </p>
+            </nav>
+
+        </fieldset>
+    </form>
+</div>
+
+</body>
+</html>
