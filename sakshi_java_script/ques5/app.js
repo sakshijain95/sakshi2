@@ -78,3 +78,17 @@ if(Employee[i].salary<1000 && Employee[i].age < 20 ){
  document.write(Employee[i].name +" incremented by 5 times " +Employee[i].salary*5 +"<br>");
 }
 }
+
+   function Grp() {
+     var empty = {};
+     for(let i = 0;i<Employee.length;i++){
+       if(empty[Employee[i].age]){
+         empty[Employee[i].age].push(Employee[i].name);
+         document.write(empty[Employee[i].age]+" <br>")
+       }else {
+         empty[Employee[i].age]=[Employee[i].name];
+       }
+     }
+     return empty;
+   }
+   var a = Grp();
