@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ques</title>
+</head>
+
+
+<body>
+    <script>
+
+            function copy(obj1) {
+                var copied={};
+                var key ;
+                for(key in obj1)
+                {
+                    copied[key]=obj1[key];
+
+
+
+                }
+
+                return copied;
+
+
+            }
+            var obj1 = {
+
+                a:32,
+                b:57,
+                c:76,
+                d:45,
+            };
+            console.log(copy(obj1));
+
+    </script>
+
+</body>
+</html>

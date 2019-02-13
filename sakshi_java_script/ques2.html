@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ques2</title>
+</head>
+<body>
+
+<p id="demo2"></p>
+
+
+
+
+<script>
+
+function palin() {
+    var str = prompt("enter the palindrome");
+    var str1 = str.toLocaleLowerCase();
+    var str2 = str1.split('').reverse().join('');
+    if (str === str2) {
+
+        return "palindrome";
+
+    } else {
+
+        return "not a palindrome";
+    }
+
+}
+document.getElementById("demo2").innerHTML=palin();
+
+
+
+</script>
+
+</body>
+</html>
