@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thirteen</title>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js">
+    </script>
+    <style>
+        div{
+            border:solid;
+            width: 10%;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="panel" style="border:solid">
+        Line 1<br>
+        Line 2
+    </div>
+
+    <br>
+
+    <div class="panel" style="border:solid">
+        Line 1<br>
+        Line 2<br>
+        Line 3<br>
+        Line 4
+    </div>
+
+    <br>
+
+    <div class="panel" style="border:solid">
+        Line 1
+    </div>
+
+    <br>
+
+    <div class="panel" style="border:solid">
+        Line 1<br>
+        Line 2
+    </div>
+
+<script>
+    var highest = null;
+    var hi = 0;
+    $("div").each(function(){
+        var h = $(this).height();
+        if(h > hi){
+            hi = h;
+            highest = $(this);
+        }
+    });
+    highest.css("background-color", "red");
+</script>
+</body>
+</html>

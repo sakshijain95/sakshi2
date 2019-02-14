@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ques6</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js">
+    </script>
+
+    <style media="screen">
+        p{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<div class="Class_div">
+    Div Class
+</div>
+<button type="button" name="button" >Click</button>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("div").replaceWith("<p>hi this is p tag</p>");
+        });
+    });
+</script>
+</body>
+</html>

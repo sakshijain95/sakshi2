@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>forteen</title>
+        <script src="https://code.jquery.com/jquery-1.10.2.js">
+    </script>
+
+</head>
+<body>
+<h1 style="color: darkgreen">Highlighting the color of cell having number greater than 10</h1>
+
+<table border="">
+    <tr>
+        <td class="cell1">20</td>
+    </tr>
+
+    <tr>
+        <td class="cell1">4</td>
+    </tr>
+
+    <tr>
+        <td class="cell1">20</td>
+    </tr>
+
+    <tr>
+        <td class="cell1">0</td>
+    </tr>
+
+    <tr>
+        <td class="cell1">11</td>
+    </tr>
+
+    <tr>
+        <td class="cell1">42</td>
+    </tr>
+
+    <tr>
+        <td class="cell1">1</td>
+    </tr>
+
+    <tr>
+        <td class="cell1">3</td>
+    </tr>
+</table>
+
+
+<script>
+    $('.cell1').each(function(i, n) {
+        if($(n).text() > 10) $(n).css('background-color','red');
+    });
+</script>
+
+</body>
+</html>

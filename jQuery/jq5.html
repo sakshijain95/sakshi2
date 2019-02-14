@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ques5</title>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js">
+    </script>
+<style>
+
+
+</style>
+
+</head>
+<body>
+
+<div id ="main" >
+
+    <p class="target"> hi here is the class of id : main</p>
+
+</div>
+
+<div id ="fast">
+
+    <p class = "target"> I am the class of id:fast</p>
+
+
+</div>
+
+<script>
+
+    $(document).ready(function(){
+
+        $(".target").parent("#main").css("font-size",30);
+    });
+
+
+
+</script>
+</body>
+</html>

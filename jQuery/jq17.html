@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seventeen</title>
+
+    <style>
+        div {
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+
+<div>
+    <button id="click" type="button" name="button">button</button>
+    <img id = "pic" src="//home/ttn/Desktop/jQuery/pics/pik.png" alt="1">
+</div>
+
+<script>
+    var img = new Array();
+    for(let i=0;i<10;i++){
+        img[i] = new Image();
+      //  img[i].src = "1"+i+".jpg"
+    }
+    $( "#click" ).click(function() {
+        var i=11;
+        $.each(img, function (index, value){
+            $( "#pic" ).animate({
+                opacity:"toggle",
+            }, 5000, function() {
+                $("#pic").attr("src",++i+".png");
+            })
+            return (i !== 20);
+        });
+        i=11;
+    });
+
+</script>
+
+
+</body>
+</html>

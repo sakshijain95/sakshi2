@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>eleven</title>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+<body>
+
+<p>There will be no response after clicking on the google link because of prevent default</p>
+<a href="https://www.google.com" class="my">google</a>
+
+<script>
+    $(document).ready(function(){
+
+        $('.my').click(function(e) { e.preventDefault(); });
+    });
+    </script>
+
+
+</body>
+</html>

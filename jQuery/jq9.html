@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>nine</title>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js">
+    </script>
+</head>
+<body>
+
+
+<div> the value for the selection is</div>
+
+<select id="id1"  onchange="getval(this);">
+    <option value="-1">Select</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+</select>
+
+
+<script>
+
+    function getval(sel)
+
+    {
+
+
+        $("div").append((sel.selectedOptions[0].text));
+
+
+
+    }
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>twelve</title>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js">
+    </script>
+
+
+</head>
+<body>
+<div id="b1">Div 1
+
+    <ul class="c1">
+        <li>sakshi</li>
+        <li>sonali</li>
+
+    </ul>
+
+</div>
+
+
+
+<script>
+    $(document).ready(function() {
+        $('#b1').on('click', function () {
+            $('<p> hi there </p><br/>').appendTo('body');
+        });
+    });
+    $(document).ready(function() {
+        $('.c1').on('click', function (e) {
+            e.stopPropagation();
+        });
+    });
+
+
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ques7</title>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js">
+    </script>
+
+    <style>
+        div {
+
+            font-size: 14pt;
+            width: 200px;
+            height: 50px;
+            background-color: yellow;
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<input type="button" id="btnAdd" value="clickme"/><br/><br/>
+
+
+<script>
+    $(document).ready(function() {
+        $('#btnAdd').on('click', function () {
+            $('<button>click</button>').appendTo('body');
+        });
+    });
+
+</script>
+
+</body>
+</html>

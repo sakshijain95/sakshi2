@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sixteen</title>
+
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js">
+    </script>
+</head>
+<body>
+
+<button>+</button>
+
+<ol>
+    <li>hi</li>
+    <li>hello</li>
+    <li>heya</li>
+</ol>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("ol").append("<li>bye <button class='remove'>X</button></li>");
+        });
+        $(document).on("click", "button.remove" , function() {
+            $(this).parent().remove();
+        });
+    });
+</script>
+
+</body>
+</html>

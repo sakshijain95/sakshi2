@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ques8</title>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js">
+    </script>
+
+    <style>
+        div {
+
+            font-size: 14pt;
+            width: 200px;
+            height: 50px;
+            background-color: #a9b7ce;
+            text-align: center;
+            cursor:pointer;
+         }
+
+    </style>
+</head>
+
+<body>
+
+<button class="b1">Click </button><br/><br/>
+
+
+
+<script>
+    $(document).ready(function() {
+        $('.b1').on('click', function () {
+            $('<br/><div class="b1" onclick="newfnc();">clicking functionality using on method</div><br/>').appendTo('body');
+        });
+    });
+
+
+
+</script>
+
+</body>
+</html>
