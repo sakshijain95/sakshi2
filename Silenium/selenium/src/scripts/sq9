@@ -1,0 +1,10 @@
+
+Selenium RC is a web application automation tool which is developed in 2006 while Selenium WebDriver is a web
+application automation tool which is developed in 2008.
+
+Selenium RC requires to start server before executing the test script while Selenium WebDriver doesn’t required to start
+server before executing the test script.
+
+
+Selenium Rc does not support to test iphone/Android applications while Selenium WebDrivers supports to test
+iphone/Android applications.

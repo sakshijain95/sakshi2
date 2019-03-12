@@ -1,0 +1,8 @@
+Disadvantages of Selenium
+
+1.We can use Selenium only to test web applications. We cannot test desktop applications or any other software
+2.It is not possible to perform testing on images.
+3.We can’t automate Captcha related test cases.
+4.We can’t automate test cases related to video.
+5.We can’t automate print related test cases.
+

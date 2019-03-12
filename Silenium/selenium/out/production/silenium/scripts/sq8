@@ -1,0 +1,21 @@
+Difference between get() and navigate()
+
+ get() method:
+After opening the browser, to open any particular application we use driver.get()
+
+driver.get(“URL of the application”);
+
+
+navigate() method:
+
+This is another method which can be used to open the application.
+
+driver.navigate().to(“URL of application”);
+
+The difference is that if we use navigate(), it allows you to go forth and back into history of the browser,
+refresh the browser etc. It is not possible if using get() method.
+
+
+driver.navigate().back(); // Perform backward function of browser
+driver.navigate().forward();  // Perform forward function of browser
+driver.navigate().refresh(); //refresh the browser
