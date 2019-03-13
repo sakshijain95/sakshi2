@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Properties;
 
-public class Q4 {
+public class Q2 {
     public static void main(String[] args) throws IOException {
         System.setProperty("webdriver.chrome.driver",
                 "/home/ttn/IdeaProjects/silenium/ss/chromedriver");
@@ -27,12 +27,14 @@ public class Q4 {
         driver.findElement(By.xpath("//*[@ng-model='Adress']")).sendKeys(prop.getProperty("Address"));
         driver.findElement(By.xpath("//*[@ng-model='EmailAdress']")).sendKeys(prop.getProperty("Email"));
         driver.findElement(By.xpath("//*[@ng-model='Phone']")).sendKeys(prop.getProperty("Phone"));
-       List<WebElement>ls = driver.findElements(By.name("radiooptions"));
-       //.get(Integer.parseInt(prop.getProperty("Gender"))).click();
-        ls.get(1).click();
-       List<WebElement> ls1 = driver.findElements(By.xpath("//input[@type='checkbox']"));
+       driver.findElements(By.name("radiooptions")).get(1).click();
+
+
+
+       //(Integer.parseInt(prop.getProperty("Gender"))).click();
+   List<WebElement> ls1 = driver.findElements(By.xpath("//input[@type='checkbox']"));
         for (WebElement a:ls1) {
-            if(a.getAttribute("value").equals("Cricket"))
+            if(a.getAttribute("value").equals(prop.getProperty("Hobbies")))
 
             {
 
@@ -43,7 +45,7 @@ public class Q4 {
       // ls1.get(1).click();
         //driver.findElements(By.id("checkbox1")).get(Integer.parseInt(prop.getProperty("Hobbies"))).click();*/
        // driver.findElement(By.id("checkbox2")).click();
-        driver.findElement(By.xpath("//*[@ng-model='Password']")).sendKeys(prop.getProperty("Password"));
+       driver.findElement(By.xpath("//*[@ng-model='Password']")).sendKeys(prop.getProperty("Password"));
         driver.findElement(By.xpath("//*[@ng-model='CPassword']")).sendKeys(prop.getProperty("Cpassword"));
 
        // driver.findElement(By.xpath("//*[@ng-model='Adress']")).sendKeys(prop.getProperty("Address"));

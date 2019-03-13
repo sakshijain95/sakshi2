@@ -6,7 +6,7 @@
 
     <test name="order">
         <classes>
-            <class name="testingqa.Demo" />
+            <class name="testingqa.Qu4" />
         </classes>
     </test>
 
