@@ -1,0 +1,24 @@
+
+
+Selenium uses locators to find and match the elements of the page that it needs to interact with.
+
+Locators used in Selenium are:
+
+
+1. id :Select element with the specified @id attribute.
+	driver.findElement(By.id(“email"));
+2. Name :Select first element with the specified @name attribute.
+	 driver.findElement(By.name(“textbox"));
+3. Linktext: Select link (anchor tag) element which contains text matching the specified link text
+	driver.findElement(By.linkText("Click On Google")).click();
+4. Partial Linktext: Select link (anchor tag) element which contains text matching the specified partial link text
+    driver.findElement(By. partialLinkText("Google")).click();
+5. Tag Name: Locate Element using a Tag Name
+    driver.findElement(By.tagName(“a”));
+6. Class name: Locate Element using a Tag Name
+    driver.findElement(By.className(“”));
+7. Css Select the element using css selectors.
+
+8. Xpath Locate an element using an XPath expression.
+
+

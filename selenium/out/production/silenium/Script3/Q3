@@ -1,0 +1,17 @@
+The benefits of TestNG are:
+There are number of benefits but from Selenium perspective, major advantages of TestNG are :
+
+It gives the ability to produce HTML Reports of execution
+Annotations made testers life easy
+Test cases can be Grouped & Prioritized more easily
+Generates Logs
+Data Parameterization is possible
+
+
+Benefits of using Annotations are:
+
+It identifies the methods it is interested in by looking up annotations. Hence method names are not restricted to any
+pattern or format.
+We can pass additional parameters to annotations.
+Annotations are strongly typed, so the compiler will flag any mistakes right away.
+Test classes no longer need to extend anything (such as Test Case, for JUnit 3).

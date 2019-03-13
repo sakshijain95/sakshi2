@@ -1,0 +1,7 @@
+
+Implicit Wait - It instructs the web driver to wait for some time by poll the DOM. Once you declared implicit wait it
+will be available for the entire life of web driver instance. By default the value will be 0. If you set a longer
+default, then the behavior will poll the DOM on a periodic basis depending on the browser/driver implementation.
+
+Explicit Wait + ExpectedConditions - Explicit waits are intelligent waits that are confined to a particular web element.
+It will be used if we want the execution to wait for some time until some condition achieved.
