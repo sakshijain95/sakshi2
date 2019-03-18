@@ -11,7 +11,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -22,17 +22,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/Demo.java">
+        <entry file="file://$PROJECT_DIR$/testng1.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-121">
-              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#681#682#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/Automation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -40,81 +42,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/Qu4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-              <folding>
-                <element signature="e#77#78#0" expanded="true" />
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#349#350#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#673#674#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#932#933#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1039#1040#0" expanded="true" />
-                <element signature="e#1097#1098#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/Test.class">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10-sources.jar!/org/junit/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/QA_Properties/flightfinder.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testng.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/QA_Properties/ap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/QA_Properties/QA.properties">
+        <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/Q2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Q2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="25">
+              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/QATest.iml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -126,19 +87,31 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>day_</find>
+    </findStrings>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/QA.java" />
         <option value="$PROJECT_DIR$/test.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/testingqa/Demo.java" />
         <option value="$PROJECT_DIR$/QA_Properties/QA.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/testingqa/QA_Properties/QA.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Q4.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testingqa/Qu4.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testingqa/Demo.java" />
         <option value="$PROJECT_DIR$/src/test/java/Q2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testingqa/QA_Properties/QA.properties" />
+        <option value="$PROJECT_DIR$/target/testng1.xml" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testingqa/Qu4.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testingqa/abc.java" />
+        <option value="$PROJECT_DIR$/testng1.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/testingqa/QA_Properties/ap.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/testingqa/QA_Properties/flightfinder.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/testingqa/Q2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/testingqa/Automation.java" />
       </list>
     </option>
   </component>
@@ -151,15 +124,71 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="63" />
-    <option name="y" value="27" />
+    <option name="y" value="25" />
     <option name="width" value="652" />
-    <option name="height" value="741" />
+    <option name="height" value="743" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Tests'; set:Tests; class com.intellij.psi.search.scope.TestsScope">
+          <expand>
+            <path>
+              <item name="QATest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="QATest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="QATest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="QATest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="QATest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="QATest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="QATest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="QATest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="QATest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="QATest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="QATest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="QATest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="testingqa" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="QATest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="QATest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="ss" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="QATest" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="QATest" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,21 +233,22 @@
             </path>
             <path>
               <item name="QATest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="QATest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552491805364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552887772063" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -227,7 +257,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/test/java/testingqa/QA_Properties" />
       <recent name="$PROJECT_DIR$/src/test/java/testingqa" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testingqa" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ss" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,22 +280,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q2">
-    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q2" />
-      <module name="QATest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q4" />
-      <module name="QATest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Automation.date (2)">
+    <configuration name="Automation.book_flight (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QATest" />
       <extension name="coverage">
         <pattern>
@@ -266,25 +290,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testingqa" />
-      <option name="MAIN_CLASS_NAME" value="testingqa.Demo" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo.firstM" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QATest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testingqa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testingqa" />
-      <option name="MAIN_CLASS_NAME" value="testingqa.Demo" />
-      <option name="METHOD_NAME" value="firstM" />
+      <option name="MAIN_CLASS_NAME" value="testingqa.Automation" />
+      <option name="METHOD_NAME" value="book_flight" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -292,10 +299,72 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/home/ttn/IdeaProjects/QATest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Automation.book_flight" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QATest" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testingqa" />
+      <option name="MAIN_CLASS_NAME" value="testingqa.Automation" />
+      <option name="METHOD_NAME" value="book_flight" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automation.date (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QATest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testingqa" />
+      <option name="MAIN_CLASS_NAME" value="testingqa.Automation" />
+      <option name="METHOD_NAME" value="date" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automation.date (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QATest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testingqa" />
+      <option name="MAIN_CLASS_NAME" value="testingqa.Automation" />
+      <option name="METHOD_NAME" value="date" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Automation.date" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QATest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testingqa" />
+      <option name="MAIN_CLASS_NAME" value="testingqa.Automation" />
+      <option name="METHOD_NAME" value="date" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -304,11 +373,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q2" />
-        <item itemvalue="TestNG./home/ttn/IdeaProjects/QATest/testng.xml" />
-        <item itemvalue="Application.Q4" />
-        <item itemvalue="TestNG.Demo.firstM" />
-        <item itemvalue="TestNG.Demo" />
+        <item itemvalue="TestNG.Automation.date (2)" />
+        <item itemvalue="TestNG.Automation.date (1)" />
+        <item itemvalue="TestNG.Automation.date" />
+        <item itemvalue="TestNG.Automation.book_flight" />
+        <item itemvalue="TestNG.Automation.book_flight (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -322,139 +391,161 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552460413847</updated>
-      <workItem from="1552460417832" duration="11690000" />
+      <workItem from="1552460417832" duration="12206000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Demo_abc - 2019.03.13 at 13h 15m 56s.xml">
-      <configuration name="Demo.abc" configurationId="TestNG" />
+    <history-entry file="Automation_date - 2019.03.17 at 14h 20m 05s.xml">
+      <configuration name="Automation.date" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_ttn_IdeaProjects_QATest_testng_xml - 2019.03.13 at 13h 16m 09s.xml">
-      <configuration name="/home/ttn/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    <history-entry file="Automation_date - 2019.03.17 at 14h 22m 51s.xml">
+      <configuration name="Automation.date" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo_secondM - 2019.03.13 at 13h 20m 00s.xml">
-      <configuration name="Demo.secondM" configurationId="TestNG" />
+    <history-entry file="Automation_date - 2019.03.17 at 14h 28m 19s.xml">
+      <configuration name="Automation.date" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_ttn_IdeaProjects_QATest_testng_xml - 2019.03.13 at 13h 20m 07s.xml">
-      <configuration name="/home/ttn/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    <history-entry file="Automation_flightFind - 2019.03.17 at 14h 29m 06s.xml">
+      <configuration name="Automation.flightFind" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_ttn_IdeaProjects_QATest_testng_xml - 2019.03.13 at 13h 22m 21s.xml">
-      <configuration name="/home/ttn/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    <history-entry file="Automation_book_flight - 2019.03.17 at 14h 30m 02s.xml">
+      <configuration name="Automation.book_flight" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo - 2019.03.13 at 14h 50m 17s.xml">
-      <configuration name="Demo" configurationId="TestNG" />
+    <history-entry file="Automation_book_flight_(1) - 2019.03.17 at 14h 32m 31s.xml">
+      <configuration name="Automation.book_flight (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_ttn_IdeaProjects_QATest_testng_xml - 2019.03.13 at 14h 50m 25s.xml">
-      <configuration name="/home/ttn/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    <history-entry file="Automation_book_flight - 2019.03.17 at 14h 35m 31s.xml">
+      <configuration name="Automation.book_flight" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Demo_firstM - 2019.03.13 at 14h 51m 20s.xml">
-      <configuration name="Demo.firstM" configurationId="TestNG" />
+    <history-entry file="Automation_date - 2019.03.18 at 10h 40m 12s.xml">
+      <configuration name="Automation.date" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_ttn_IdeaProjects_QATest_testng_xml - 2019.03.13 at 14h 51m 28s.xml">
-      <configuration name="/home/ttn/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    <history-entry file="Automation_date_(1) - 2019.03.18 at 10h 43m 27s.xml">
+      <configuration name="Automation.date (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_home_ttn_IdeaProjects_QATest_testng_xml - 2019.03.13 at 21h 06m 30s.xml">
-      <configuration name="/home/ttn/IdeaProjects/QATest/testng.xml" configurationId="TestNG" />
+    <history-entry file="Automation_date_(2) - 2019.03.18 at 10h 57m 08s.xml">
+      <configuration name="Automation.date (2)" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11690000" />
+    <option name="totallyTimeSpent" value="12206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="25" width="1303" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494244" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26173428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286385" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286385" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.53051645" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.52922076" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32792208" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.0548926" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2494244" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.3286385" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.53051645" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26173428" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32792208" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.52922076" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32792208" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.0548926" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>List&lt;WebElement&gt; radio=driver.findElements(By.name(&quot;radiooptions&quot;));
+        radio.get(1).getAttribute(&quot;Value&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>List&lt;WebElement&gt; radio=driver.findElements(By.name(&quot;radiooptions&quot;));
+        radio.get(0).getAttribute(&quot;Value&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>List&lt;WebElement&gt; radio=driver.findElements(By.name(&quot;radiooptions&quot;));
+        radio.get(0).getAttribute(&quot;value&quot;);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>List&lt;WebElement&gt; radio=driver.findElements(By.name(&quot;radiooptions&quot;));
+        String attribute = radio.get(0).getAttribute();</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>List&lt;WebElement&gt; radio=driver.findElements(By.name(&quot;radiooptions&quot;));</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/QA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QATest.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/QA.java" />
+    <entry file="file://$PROJECT_DIR$/QATest.iml" />
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar!/org/junit/Test.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-121">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="354">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#459#460#0" expanded="true" />
@@ -465,63 +556,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/Qu4.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Q2.java" />
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/io/FileInputStream.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#349#350#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#508#509#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="492">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10-sources.jar!/org/junit/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/abc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/QA_Properties/QA.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state>
+          <caret selection-end-line="9" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Q2.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/Q2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar!/org/openqa/selenium/remote/ErrorHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.8/testng-6.8.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/QA_Properties/ap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/QA_Properties/flightfinder.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/Qu4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/testingqa/Automation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
         </state>
       </provider>
     </entry>
