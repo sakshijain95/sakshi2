@@ -8,8 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -32,7 +31,7 @@ public class Automation {
     }
  //**************First possitive test case **************
 
-        @Test
+        @BeforeClass
         public void register() throws IOException {
 
        // WebDriver driver=driver();
@@ -78,7 +77,7 @@ public class Automation {
         //************Login
 
 
-    @Test(dependsOnMethods = "register",priority = 1)
+    @BeforeMethod
     public void login() throws IOException, InterruptedException {
 
         WebDriver driver=driver();
@@ -90,16 +89,14 @@ public class Automation {
         driver.findElement(By.name("userName")).sendKeys(prop.getProperty("username"));
         driver.findElement(By.name("password")).sendKeys(prop.getProperty("Password"));
         driver.findElement(By.name("login")).submit();
-        Thread.sleep(300);
+
         System.out.println("login end ");
 }
 
 
 
-
-
         //******Departure and arrival city not same
-        @Test(description = "departure and arival city negative test case",dependsOnMethods = {"register","login"},priority = 2)
+        @Test(description = "departure and arival city negative test case",priority = 2)
         public void city() throws InterruptedException {
         driver.findElements(By.name("tripType")).get(0).click();
         //Passengers
@@ -123,7 +120,7 @@ public class Automation {
 
         // ARRIVING IN
         WebElement arrive = driver.findElement(By.name("toPort"));
-        new Select(arrive).selectByVisibleText("London");
+        new Select(arrive).selectByVisibleText("Acapulco");
 
         //Returning date
         WebElement month1 = driver.findElement(By.name("toMonth"));
@@ -179,7 +176,7 @@ public class Automation {
     //*******Arrival and Departure date
 
 
-    @Test(description = "Departure date should be less than arrival date ",dependsOnMethods = {"register","login"} ,priority = 4)
+    @Test(description = "Departure date should be less than arrival date ",priority = 3)
             public void date() throws InterruptedException {
         driver.findElement(By.xpath("//input[@value='roundtrip']")).click();
         //Passengers
@@ -237,57 +234,16 @@ public class Automation {
     }
 
 
-    @Test(description = "end to end",priority = 3)
+    @Test(description = "end to end",priority = 4)
 
-    public void flightFind() throws IOException, InterruptedException {
+    public void endtoend() throws IOException, InterruptedException {
 
         // ************//Register*************
-
-        driver.findElement(By.xpath("//a[text()='REGISTER']")).click();
-
-        Properties prop = new Properties();
-        File f = new File("/home/ttn/Desktop/IP/QATest/src/test/java/testingqa/QA_Properties/ap.properties");
-        FileInputStream fip = new FileInputStream(f);
-        prop.load(fip);
-        //System.out.println(prop.getProperty("First Name"));
-        driver.findElement(By.name("firstName")).sendKeys(prop.getProperty("FirstName"));
-        driver.findElement(By.name("lastName")).sendKeys(prop.getProperty("LastName"));
-        driver.findElement(By.name("phone")).sendKeys(prop.getProperty("Phone"));
-        driver.findElement(By.name("userName")).sendKeys(prop.getProperty("Email"));
-
-        driver.findElement(By.name("address1")).sendKeys(prop.getProperty("Address"));
-        driver.findElement(By.name("address2")).sendKeys(prop.getProperty("Address1"));
-
-        driver.findElement(By.name("city")).sendKeys(prop.getProperty("City"));
-        driver.findElement(By.name("state")).sendKeys(prop.getProperty("State"));
-        driver.findElement(By.name("postalCode")).sendKeys(prop.getProperty("Pin"));
-
-        WebElement country = driver.findElement(By.name("country"));
-        Select s = new Select(country);
-        s.selectByVisibleText("INDIA");
-
-        driver.findElement(By.name("email")).sendKeys(prop.getProperty("username"));
-
-        driver.findElement(By.name("password")).sendKeys(prop.getProperty("Password"));
-        driver.findElement(By.name("confirmPassword")).sendKeys(prop.getProperty("CPassword"));
-
-        driver.findElement(By.name("register")).submit();
-        String actual = driver.findElement(By.xpath("//b")).getText();
-        String expected = "Dear Sakshi Jain,";
-
-        Assert.assertEquals(actual, expected);
-
-
-        driver.get("http://newtours.demoaut.com/mercurywelcome.php");
-
-        driver.findElement(By.name("userName")).sendKeys(prop.getProperty("username"));
-        driver.findElement(By.name("password")).sendKeys(prop.getProperty("Password"));
-        driver.findElement(By.name("login")).submit();
 
 
         //***Find flight main content
 
-        driver.findElements(By.name("tripType")).get(0).click();
+//        driver.findElements(By.name("tripType")).get(0).click();
         //Passengers
         WebElement passengers = driver.findElement(By.name("passCount"));
         Select selectpassenger = new Select(passengers);
@@ -395,15 +351,15 @@ public class Automation {
         }
         driver.findElement(By.xpath("//img[@src='/images/forms/Logout.gif']")).click();
 
-        Thread.sleep(300);
+
         System.out.println("end to end end ");
     }
 
 
 
-    @Test(description = "empty passengers field",dependsOnMethods = {"register","login"},priority = 4)
+    @Test(description = "empty passengers field",priority = 5)
 
-    public void book_flight() throws IOException, InterruptedException {
+    public void empty_passengers() throws IOException, InterruptedException {
 
 
         driver.findElements(By.name("tripType")).get(0).click();
@@ -474,13 +430,14 @@ public class Automation {
 
                 Assert.assertEquals(expected_result,actual_result);
 
-
-        Thread.sleep(300);
         System.out.println("last end");
 
     }
 
-
+    @AfterSuite
+    public void closeTabs(){
+        driver.quit();
+    }
 
     }
 
