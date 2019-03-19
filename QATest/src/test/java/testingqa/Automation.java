@@ -89,11 +89,6 @@ public class Automation {
         driver.findElement(By.name("userName")).sendKeys(prop.getProperty("username"));
         driver.findElement(By.name("password")).sendKeys(prop.getProperty("Password"));
         driver.findElement(By.name("login")).submit();
-<<<<<<< HEAD
-
-=======
-        //Thread.sleep(300);
->>>>>>> 60b67116bfccd9812a481ec422db4d7a845f8246
         System.out.println("login end ");
 }
 
@@ -236,22 +231,10 @@ public class Automation {
 
 
     }
-
-
-<<<<<<< HEAD
-    @Test(description = "end to end",priority = 4)
-=======
+    
     @Test(description = "end to end",priority = 3,dependsOnMethods = {"register","login"})
->>>>>>> 60b67116bfccd9812a481ec422db4d7a845f8246
 
     public void endtoend() throws IOException, InterruptedException {
-
-<<<<<<< HEAD
-        // ************//Register*************
-
-=======
-      
->>>>>>> 60b67116bfccd9812a481ec422db4d7a845f8246
 
         //***Find flight main content
 
