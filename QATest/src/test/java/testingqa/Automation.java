@@ -1,4 +1,5 @@
-package testingqa;
+
+        package testingqa;
 
 import org.junit.runner.Description;
 import org.openqa.selenium.By;
@@ -18,7 +19,7 @@ import java.util.List;
 import java.util.Properties;
 
 
-public class Automation {
+public class Automation1 {
     WebDriver driver;
 
     @BeforeSuite
@@ -29,12 +30,12 @@ public class Automation {
         driver.get("http://newtours.demoaut.com/mercurywelcome.php");
         return (driver);
     }
- //**************First possitive test case **************
+    //**************First possitive test case **************
 
-        @BeforeClass
-        public void register() throws IOException {
+    @Test
+    public void register() throws IOException {
 
-       // WebDriver driver=driver();
+        // WebDriver driver=driver();
         //driver();
         driver.findElement(By.xpath("//a[text()='REGISTER']")).click();
 
@@ -64,24 +65,26 @@ public class Automation {
         driver.findElement(By.name("password")).sendKeys(prop.getProperty("Password"));
         driver.findElement(By.name("confirmPassword")).sendKeys(prop.getProperty("CPassword"));
 
-            driver.findElement(By.name("register")).submit();
+        driver.findElement(By.name("register")).submit();
         String actual = driver.findElement(By.xpath("//b")).getText();
         String expected = "Dear Sakshi Jain,";
 
         Assert.assertEquals(actual, expected);
         //String a = driver.getCurrentUrl();
-            System.out.println("Register end ");
+        System.out.println("Register end ");
 
     }
 
-        //************Login
+    //************Login
 
 
-    @BeforeMethod
+    @Test(dependsOnMethods = {"register"},priority = 1)
     public void login() throws IOException, InterruptedException {
 
-        WebDriver driver=driver();
+        //WebDriver driver=driver();
         //  driver();
+        driver.findElement(By.xpath("//a[text()=' sign-in ']")).click();
+
         Properties prop = new Properties();
         File f = new File("/home/ttn/Desktop/IP/QATest/src/test/java/testingqa/QA_Properties/ap.properties");
         FileInputStream fip = new FileInputStream(f);
@@ -89,14 +92,17 @@ public class Automation {
         driver.findElement(By.name("userName")).sendKeys(prop.getProperty("username"));
         driver.findElement(By.name("password")).sendKeys(prop.getProperty("Password"));
         driver.findElement(By.name("login")).submit();
+        Thread.sleep(300);
         System.out.println("login end ");
-}
+    }
 
 
 
-        //******Departure and arrival city not same
-        @Test(description = "departure and arival city negative test case",priority = 2)
-        public void city() throws InterruptedException {
+
+
+    //******Departure and arrival city not same
+    @Test(description = "departure and arival city negative test case",dependsOnMethods = {"login"},priority = 2)
+    public void city() throws InterruptedException {
         driver.findElements(By.name("tripType")).get(0).click();
         //Passengers
         WebElement passengers = driver.findElement(By.name("passCount"));
@@ -135,21 +141,12 @@ public class Automation {
         new Select(prefrence).selectByVisibleText("Unified Airlines");
 
 
-        //continue button
-        driver.findElement(By.name("findFlights")).submit();
 
-        //Depart to
-        driver.findElements(By.name("outFlight")).get(2).click();
-        //Arrive to
-        driver.findElements(By.name("outFlight")).get(2).click();
-
-        //continue button clicked
-        driver.findElement(By.name("reserveFlights")).submit();
 
 
         try {
             // Making the test fail
-            Assert.assertEquals(depart.getAttribute("value"), arrive.getAttribute("value"));
+            Assert.assertNotEquals(depart.getAttribute("value"), arrive.getAttribute("value"));
 
         } catch (StaleElementReferenceException e) {
 
@@ -158,14 +155,8 @@ public class Automation {
             System.out.println(depart.getAttribute("value"));
             System.out.println(arrive.getAttribute("value"));
             Assert.assertNotEquals(depart.getAttribute("value"), arrive.getAttribute("value"));
+  
 
-
-            // Following lines will be printed when the assert condition fails
-            System.out.println("test case");
-            System.out.println("Error message: " + e.toString());
-
-            Thread.sleep(300);
-            System.out.println("city end ");
         }
     }
 
@@ -175,9 +166,10 @@ public class Automation {
     //*******Arrival and Departure date
 
 
-    @Test(description = "Departure date should be less than arrival date ",priority = 3)
-            public void date() throws InterruptedException {
-        driver.findElement(By.xpath("//input[@value='roundtrip']")).click();
+    @Test(description = "Departure date should be less than arrival date ",dependsOnMethods = {"login"} ,priority = 3)
+    public void date() throws InterruptedException {
+           // driver.findElement(By.xpath("//a[text()='Home']")).click();
+            driver.findElement(By.xpath("//input[@value='roundtrip']")).click();
         //Passengers
         WebElement passengers = driver.findElement(By.name("passCount"));
         Select selectpassenger = new Select(passengers);
@@ -196,6 +188,8 @@ public class Automation {
         new Select(month).selectByVisibleText("May");
         new Select(day).selectByVisibleText("2");
 
+        String month_depart = month.getAttribute("value");
+        String day_depart = day.getAttribute("value");
 
         // ARRIVING IN
         WebElement arrive = driver.findElement(By.name("toPort"));
@@ -207,6 +201,8 @@ public class Automation {
         new Select(month1).selectByVisibleText("April");
         new Select(day1).selectByVisibleText("10");
 
+        String month_arrive = month.getAttribute("value");
+        String day_arrive = day.getAttribute("value");
         //Service class
         driver.findElements(By.xpath("//input[@name='servClass']")).get(2).click();
 
@@ -216,29 +212,32 @@ public class Automation {
 
 
         //continue button
-        driver.findElement(By.name("findFlights")).submit();
+  /*      driver.findElement(By.name("findFlights")).submit();
 
         //Depart to
         driver.findElements(By.name("outFlight")).get(2).click();
         //Arrive to
-        driver.findElements(By.name("inFlight")).get(2).click();
+        driver.findElements(By.name("outFlight")).get(2).click();
 
         //continue button clicked
         driver.findElement(By.name("reserveFlights")).submit();
-        String actual_url = driver.getCurrentUrl();
-        String expected_url = "http://newtours.demoaut.com/mercuryreservation.php?osCsid=b7dd10f493813134cb2c66e437e63b0d";
-        Assert.assertEquals(actual_url, expected_url);
+*/
 
+       // driver.findElement(By.name("findFlights")).submit();
+//verify with URL
 
+        String actual_url="http://newtours.demoaut.com/mercuryreservation2.php";
+        Assert.assertEquals(actual_url,driver.getCurrentUrl());
     }
-    
-    @Test(description = "end to end",priority = 3,dependsOnMethods = {"register","login"})
 
-    public void endtoend() throws IOException, InterruptedException {
 
-        //***Find flight main content
 
-//        driver.findElements(By.name("tripType")).get(0).click();
+    @Test(description = "end to end",priority = 5,dependsOnMethods = {"login"})
+
+    public void end_To_End() throws IOException, InterruptedException {
+        driver.findElement(By.xpath("//a[text()='Flights']")).click();
+
+        driver.findElement(By.xpath("//input[@value='roundtrip']")).click();
         //Passengers
         WebElement passengers = driver.findElement(By.name("passCount"));
         Select selectpassenger = new Select(passengers);
@@ -249,7 +248,7 @@ public class Automation {
         WebElement depart = driver.findElement(By.name("fromPort"));
         Select departdrop = new Select(depart);
 
-            departdrop.selectByVisibleText("Acapulco");
+        departdrop.selectByVisibleText("Acapulco");
 
         //departing(date)
         WebElement month = driver.findElement(By.name("fromMonth"));
@@ -287,26 +286,7 @@ public class Automation {
         //continue button clicked
         driver.findElement(By.name("reserveFlights")).submit();
 
-        try {
-            // Making the test fail
-            Assert.assertEquals(depart.getAttribute("value"), arrive.getAttribute("value"));
-
-        } catch(StaleElementReferenceException e){
-
-            depart = driver.findElement(By.name("fromPort"));
-            arrive = driver.findElement(By.name("toPort"));
-            System.out.println(depart.getAttribute("value"));
-            System.out.println(arrive.getAttribute("value"));
-            Assert.assertNotEquals(depart.getAttribute("value"), arrive.getAttribute("value"));
-
-
-            // Following lines will be printed when the assert condition fails
-            System.out.println("test case");
-            System.out.println("Error message: " + e.toString());
-        }
-
-
-       // Book a fight
+        // Book a fight
         //driver.findElement(By.xpath("//font"))
         driver.findElement(By.name("passFirst0")).sendKeys("Sakshi");
         driver.findElement(By.name("passLast0")).sendKeys("Jain");
@@ -346,18 +326,22 @@ public class Automation {
         }
         driver.findElement(By.xpath("//img[@src='/images/forms/Logout.gif']")).click();
 
-
+      //  Thread.sleep(300);
         System.out.println("end to end end ");
     }
 
 
 
-    @Test(description = "empty passengers field",priority = 5)
-
-    public void empty_passengers() throws IOException, InterruptedException {
 
 
-        driver.findElements(By.name("tripType")).get(0).click();
+    @Test(description = "empty passengers field",dependsOnMethods = {"login"},priority = 4)
+
+    public void empty_Passenger_Field() throws IOException, InterruptedException {
+
+
+        //***Find flight main content
+
+        driver.findElement(By.xpath("//input[@value='roundtrip']")).click();
         //Passengers
         WebElement passengers = driver.findElement(By.name("passCount"));
         Select selectpassenger = new Select(passengers);
@@ -423,17 +407,19 @@ public class Automation {
         String actual_result = "http://newtours.demoaut.com/mercurypurchase.php";
 
 
-                Assert.assertEquals(expected_result,actual_result);
+        Assert.assertEquals(expected_result,actual_result);
 
-        System.out.println("last end");
+
+
+
 
     }
 
     @AfterSuite
-    public void closeTabs(){
-        driver.quit();
-    }
+    public void closee()
+    {
+driver.quit();
 
     }
 
-
+}
